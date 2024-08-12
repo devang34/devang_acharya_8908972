@@ -15,12 +15,12 @@ function Navbar() {
     <NavbarComponent
       collapseOnSelect
       expand="lg"
-      style={{ backgroundColor: '#bfd72f' }}
+      style={{ backgroundColor: '#b8baa9' }}
     >
       <Container>
         <NavbarComponent.Brand>
           <Link to="/" className="text-dark">
-            FreshMart
+            Onlysports
           </Link>
         </NavbarComponent.Brand>
         <NavbarComponent.Toggle aria-controls="responsive-navbar-nav" />

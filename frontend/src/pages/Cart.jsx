@@ -69,7 +69,7 @@ function CartItem({ cartItem, onRemove, onUpdate }) {
           <div style={{ width: 50 }}>
             <Image
               className="w-100"
-              src={`http://localhost:4040/images/${cartItem?.product?.image}`}
+              src={cartItem?.product?.image}
               rounded
             />
           </div>

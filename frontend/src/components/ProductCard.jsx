@@ -33,7 +33,7 @@ export default function ProductCard({ product }) {
     <Card className="my-2">
       <Card.Img
         variant="top"
-        src={`http://localhost:4040/images/${product?.image}`}
+        src={product?.image}
       />
       <Card.Body>
         <Card.Title>{product?.title}</Card.Title>
